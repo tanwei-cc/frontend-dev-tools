@@ -2,9 +2,7 @@
 
 ## 远程调试工具
 
-- [weinre](http://people.apache.org/~pmuellr/weinre/docs/latest/)
-- [weinre install](http://people.apache.org/~pmuellr/weinre/docs/latest/Installing.html)
-- [远程调试 Android 设备使用入门](https://developers.google.com/web/tools/chrome-devtools/remote-debugging/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3#remote-debugging-overview)
+- [weinre](http://people.apache.org/~pmuellr/weinre/docs/latest/Installing.html)
 - [chrome inspect](http://wiki.jikexueyuan.com/project/chrome-devtools/remote-debugging-on-android.html)
 - [spy-debugger](https://github.com/wuchangming/spy-debugger)
 
