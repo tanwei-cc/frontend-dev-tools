@@ -14,7 +14,7 @@ sudo apt-get install nodejs
 sudo apt install nodejs-legacy
 sudo apt install npm
 
-# OR
+# or
 
 nvm install latest # 先安装nvm，安装方法在下面
 ```
@@ -23,9 +23,13 @@ nvm install latest # 先安装nvm，安装方法在下面
 
 ```bash
 curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
-# OR
+
+# or
+
 brew install node
-# OR
+
+# or
+
 port install nodejs<major version>  # port install nodejs7
 ```
 

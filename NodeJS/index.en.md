@@ -1,6 +1,6 @@
 # Nodejs
 
-## 快捷安装
+## Quick installation
 
 ### Ubuntu
 
@@ -14,54 +14,58 @@ sudo apt-get install nodejs
 sudo apt install nodejs-legacy
 sudo apt install npm
 
-# OR
+# or
 
-nvm install latest # 先安装nvm，安装方法在下面
+nvm install latest # Install nvm first, the installation method is below
 ```
 
 ### macOS
 
 ```bash
 curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
-# OR
+
+# or
+
 brew install node
-# OR
+
+# or
+
 port install nodejs<major version>  # port install nodejs7
 ```
 
-## 下载安装
+## Download and install
 
-[下载地址](https://nodejs.org/zh-cn/download/)
+[Download link](https://nodejs.org/zh-cn/download/)
 
-## 通过包管理器方式安装
+## Installed by package manager
 
-- [安装地址](https://nodejs.org/zh-cn/download/package-manager/)
+- [Installation address](https://nodejs.org/zh-cn/download/package-manager/)
 
-## 其他安装方法
+## Other installation methods
 
-- [在 Linux 上，通过二进制文件安装 Node.js](https://github.com/nodejs/help/wiki/Installation)
-- [在支持的平台上，使用源代码构建 Node.js](https://github.com/nodejs/node/blob/master/BUILDING.md#building-nodejs-on-supported-platforms)
+- [Installing Node.js via binary archive on Linux](https://github.com/nodejs/help/wiki/Installation)
+- [Building Node.js from source on supported platforms](https://github.com/nodejs/node/blob/master/BUILDING.md#building-nodejs-on-supported-platforms)
 
-## 安装包管理器
+## Installation package manager
 
-选择nvm或n，作为Nodejs包管理工具
+Choose nvm or n as the Nodejs package management tool
 
 ### nvm
 
-- [nvm安装或升级](https://github.com/nvm-sh/nvm#installation-and-update)
+- [Nvm installation or upgrade](https://github.com/nvm-sh/nvm#installation-and-update)
 
 ### n
 
 ```bash
 sudo npm install n -g
-sudo n stable #安装最新的nodejs（stable版本）
+sudo n stable #Install the latest nodejs (stable version)
 sudo node -v
 ```
 
-## NPM设置
+## NPM settings
 
 ```bash
-# 更新npm的包镜像源，方便快速下载
+# Update the npm package image source for quick download
 sudo npm config set registry https://registry.npm.taobao.org
 sudo npm config list
 ```
