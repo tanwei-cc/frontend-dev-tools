@@ -6,7 +6,7 @@
 
 ![mind map](./mind-map.png)
 
-## [NodeJS NPM](./NodeJS/index.md)
+## [NodeJS](./NodeJS/index.md)
 
 ## [编辑器](./编辑器/index.md)
 
