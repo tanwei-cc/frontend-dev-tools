@@ -4,7 +4,7 @@
 
 > Web front-end development toolset, new tools will be added or removed over time, keep new and popular toolsets, and keep updating...
 
-![mind map](./mind-map.en.png)
+![](./mind-map.en.png)
 
 ## Table of Contents
 
