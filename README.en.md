@@ -6,19 +6,24 @@
 
 ![mind map](./mind-map.en.png)
 
-## [NodeJS](./NodeJS/index.en.md)
+## Table of Contents
 
-## [Editor](./编辑器/index.en.md)
+### [NodeJS](./NodeJS/index.en.md)
 
-## [Build package](./构建打包/index.en.md)
+### [Editor](./编辑器/index.en.md)
 
-## [Code tool](./代码工具/index.en.md)
+### [Build package](./构建打包/index.en.md)
 
-- Code quality
-- Code management
+### [Code tool](./代码工具/index.en.md)
 
-## [Debugging tool](./调试工具/index.en.md)
+### [Debugging tool](./调试工具/index.en.md)
 
-## [Site building](./建站工具/index.en.md)
+### [Site building](./建站工具/index.en.md)
 
-## [Other tools](./其他工具/index.en.md)
+### [Other tools](./其他工具/index.en.md)
+
+## Reporting Bugs and Issues
+
+If you find an error or need to add, please submit [issues](https://github.com/tanwei-cc/frontend-dev-tools/issues), thanks!
+
+
