@@ -14,7 +14,7 @@ sudo apt-get install nodejs
 sudo apt install nodejs-legacy
 sudo apt install npm
 
-# 安装node包管理，安装方法在下面
+# 继续安装node包管理，安装方法在下面
 ```
 
 ### macOS
@@ -60,10 +60,12 @@ sudo n stable #安装最新的nodejs（stable版本）
 sudo node -v
 ```
 
-## NPM设置
+## NPM
 
 ```bash
 # 更新npm的包镜像源，方便快速下载
 sudo npm config set registry https://registry.npm.taobao.org
-sudo npm config list
+
+# 升级npm
+npm install -g npm 
 ```
