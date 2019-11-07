@@ -14,9 +14,7 @@ sudo apt-get install nodejs
 sudo apt install nodejs-legacy
 sudo apt install npm
 
-# or
-
-nvm install latest # 先安装nvm，安装方法在下面
+# 安装node包管理，安装方法在下面
 ```
 
 ### macOS
