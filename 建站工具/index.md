@@ -2,11 +2,11 @@
 
 ## [Hexo](https://github.com/hexojs/hexo/)
 
-Hexo 是基于node.js制作的博客网站的工具，通过markdown编写文章，通过Hexo生成静态html页面。
+Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
 
 ## [jekyll](https://github.com/jekyll/jekyll)
 
-类似Hexo，支持Markdown（或 Textile）、Liquid，采用的是ruby语言编写。
+Jekyll 是一个简单、可扩展的静态站点生成器。用你喜欢的 标记语言书写内容并交给 Jekyll，它利用模板创建一个 静态网站。在整个处理过程中，你可以调整你想要的网址样式、 在模板中显示哪些数据等等。
 
 ## [wordpress](https://cn.wordpress.org/)
 

@@ -2,11 +2,11 @@
 
 ## [Hexo](https://github.com/hexojs/hexo/)
 
-Hexo is a tool for blog sites based on node.js. It writes articles via markdown and generates static html pages via Hexo.
+Hexo is a fast, concise and efficient blog framework. Hexo uses Markdown (or other rendering engine) to parse the article, and in a matter of seconds, it can generate static web pages with beautiful themes.
 
 ## [jekyll](https://github.com/jekyll/jekyll)
 
-Like Hexo, it supports Markdown (or Textile), Liquid, and is written in ruby.
+Jekyll is a simple, extensible static site generator. Write the content in your favorite markup language and hand it to Jekyll, which uses the template to create a static website. Throughout the process, you can adjust the style of the URL you want, what data to display in the template, and more.
 
 ## [wordpress](https://cn.wordpress.org/)
 
